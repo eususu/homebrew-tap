@@ -4,7 +4,7 @@ cask "mdv" do
   sha256 "1f80ced6f60f4d714b42b6d8eac80c72dcfadc01e039f9277bfd90f6efb9e296"
 
   # 실제 GitHub Release에 올라간 자산(asset)의 파일명으로 맞춰주세요.
-  url "https://github.com/eususu/mdv/releases/download/v0.2/mdv_0.2.0.dmg"
+  url "https://github.com/eususu/mdv/releases/download/v0.2/mdv_0.2.0_aarch64.dmg"
   name "mdv"
   desc "Markdown Viewer"
   homepage "https://github.com/eususu/mdv"
