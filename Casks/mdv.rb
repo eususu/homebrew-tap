@@ -13,7 +13,7 @@ cask "mdv" do
   app "mdv.app" 
 
 	# 🚀 추가된 부분: 설치 직후 자동으로 격리(Quarantine) 속성 해제
-  postflight do
+  postflight_steps do
     system_command "xattr",
                    args: ["-cr", "#{appdir}/mdv.app"]
   end
