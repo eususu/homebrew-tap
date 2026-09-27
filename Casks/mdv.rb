@@ -15,7 +15,7 @@ cask "mdv" do
 	# 🚀 추가된 부분: 설치 직후 자동으로 격리(Quarantine) 속성 해제
   postflight_steps do
     system_command "xattr",
-                   args: ["-cr", "#{appdir}/mdv.app"]
+                   args: ["-cr", "/Applications/mdv.app"]
   end
   
   # 옵션: 앱을 지울 때 캐시나 설정 파일도 함께 지우도록 설정 (필요시 추가)
